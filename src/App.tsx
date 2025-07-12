@@ -78,7 +78,7 @@ function App() {
             {socialLinks.map(({ href, iconTemplate, label }) => (
               <a
                 href={href}
-                class="text-neutral-200 hover:text-neutral-400 transition-colors"
+                class="text-neutral-200 hover:text-neutral-400 transition-colors duration-200 ease-in-out block"
                 aria-label={label}
               >
                 <span
@@ -134,14 +134,14 @@ function App() {
           />
           <a
             href="https://www.solidjs.com/"
-            class="text-sky-200 hover:text-slate-400 transition-colors"
+            class="text-sky-200 hover:text-slate-400 hover:underline transition-colors duration-200 ease-in-out block"
           >
             SolidJS
           </a>
         </p>
         <a
           href="https://github.com/yukariha/apothecary"
-          class="text-sky-200 hover:text-slate-400 transition-colors block"
+          class="text-sky-200 hover:text-slate-400 hover:underline transition-colors duration-200 ease-in-out block"
         >
           Source Code
         </a>
